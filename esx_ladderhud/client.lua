@@ -28,5 +28,5 @@ Citizen.CreateThread(function ()
 end)
 
 AddEventHandler("esx_ladderhud:updateBasics", function(basics)
-    hunger, thirst = basics[1].percent, basics[2].percent
+    thirst, hunger = basics[1].percent, basics[2].percent
 end)
